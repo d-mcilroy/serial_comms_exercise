@@ -21,11 +21,6 @@ namespace SerialDataTransmitter
 
                 using (SerialPortAccessLayer serialPort = new SerialPortAccessLayer(1))
                 {
-                    Console.WriteLine("");
-                    Console.WriteLine("COM1 Open.");
-                    Console.WriteLine("Transmitting...");
-                    Console.WriteLine("");
-
                     byte[] packet = new byte[SerialPortAccessLayer.PACKET_SIZE];
                     
                     // Status flags
