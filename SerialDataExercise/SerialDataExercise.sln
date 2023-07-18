@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33829.357
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "SerialDataCommon", "SerialDataCommon\SerialDataCommon.shproj", "{CF99B402-B7C9-4333-8AFD-22782ED5C9A4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SerialDataTransmitter", "SerialDataTransmitter\SerialDataTransmitter.csproj", "{8942B141-B000-4826-AFFE-5B29127C7FD7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SerialDataReceiver", "SerialDataReceiver\SerialDataReceiver.csproj", "{6C9AD523-8A01-4FA3-B3B9-2833B2AA2643}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8942B141-B000-4826-AFFE-5B29127C7FD7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8942B141-B000-4826-AFFE-5B29127C7FD7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8942B141-B000-4826-AFFE-5B29127C7FD7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8942B141-B000-4826-AFFE-5B29127C7FD7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6C9AD523-8A01-4FA3-B3B9-2833B2AA2643}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6C9AD523-8A01-4FA3-B3B9-2833B2AA2643}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6C9AD523-8A01-4FA3-B3B9-2833B2AA2643}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6C9AD523-8A01-4FA3-B3B9-2833B2AA2643}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {12AC2AAA-2A6E-4D9E-A397-3D75C07A8108}
+	EndGlobalSection
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		SerialDataCommon\SerialDataCommon.projitems*{6c9ad523-8a01-4fa3-b3b9-2833b2aa2643}*SharedItemsImports = 5
+		SerialDataCommon\SerialDataCommon.projitems*{8942b141-b000-4826-affe-5b29127c7fd7}*SharedItemsImports = 5
+		SerialDataCommon\SerialDataCommon.projitems*{cf99b402-b7c9-4333-8afd-22782ed5c9a4}*SharedItemsImports = 13
+	EndGlobalSection
+EndGlobal
