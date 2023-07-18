@@ -32,7 +32,7 @@ namespace SerialDataCommon
         /// <param name="comPortNumber">COM port number.</param>
         internal SerialPortAccessLayer(int comPortNumber)
         {
-            _serialPort = new SerialPort("COM" + comPortNumber.ToString());
+            _serialPort = new SerialPort($"COM{comPortNumber}");
             _disposed = false;
 
             _serialPort.Open();
